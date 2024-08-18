@@ -1,0 +1,98 @@
+#header {
+    margin-inline: 3rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.navbar {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #68707d;
+    letter-spacing: 0.3px;
+}
+
+.navbar nav ul li a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 2.6rem;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #ff7d1a;
+}
+
+.profileDiv {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.profileDiv button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.profileDiv button span {
+    position: absolute;
+    left: 12px;
+    bottom: 15px;
+    color: #ffffff;
+    background-color: #ff7d1a;
+    height: 15px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding-inline: 7px;
+    border-radius: 10px;
+    padding-block-start: 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: appearance 0.3s linear;
+}
+
+.profileDiv button:hover svg path {
+    fill: #000000;
+    transition: 0.2s ease;
+}
+
+.profileLogo img {
+    width: 38px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.profileLogo img:hover {
+    border-color: #ff7d1a;
+}
+
+hr {
+    margin-inline: 5rem;
+    border: none;
+    border-bottom: 0.5px solid #d2d4da;
+}
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

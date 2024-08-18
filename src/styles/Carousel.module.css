@@ -1,0 +1,57 @@
+.carousel {
+    border: 2px solid salmon;
+    overflow: hidden;
+    width: 30rem;
+    height: 29.5rem;
+    margin: 8rem auto;
+    background-color: transparent;
+    box-shadow: none;
+    position: relative;
+    padding: 2rem;
+}
+
+.carousel::backdrop {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.carousel .closeBtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 25rem;
+    bottom: 0.5rem;
+}
+
+.carouselImages {
+    display: flex;
+    overflow: hidden;
+}
+
+.carouselImages img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.carouselImages button {
+    position: absolute;
+    top: 15rem;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+.carouselImages button img {
+    width: 18px;
+    aspect-ratio: 1;
+}
+
+.left {
+    left: 0.7rem;
+}
+
+.right {
+    right: 0.7rem;
+}

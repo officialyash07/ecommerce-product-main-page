@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+/* -------------- */
+/* Default Values */
+/* -------------- */
+
+/* Box Sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset default Margin and Padding */
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default body styles */
+
+body {
+    line-height: 1.5;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+}
+
+/* Images Setup */
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Form Element Setup */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Reset list style to none */
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+
+/* Reset lists padding */
+
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+
+/* Reset list markers */
+
+article ol,
+article ul {
+    list-style-position: inside;
+}
+
+/* Reset Cursor for Elements */
+
+label,
+button,
+select,
+summary,
+[type='radio'],
+[type='submit'],
+[type='checkbox'] {
+    cursor: pointer;
+}
+
+main {
+    margin-block-start: 2rem;
+    margin-inline: 3rem;
+    padding: 2rem;
+    /* border: 1px solid salmon; */
+    display: flex;
+    gap: 8rem;
+}
+
+#modal {
+    width: 100vw;
+}
+
+@media (max-width: 1100px) {
+    main {
+        gap: 3rem;
+    }
+}
+
+/* orange - #ff7d1a */
+/* pale-orange - #ffede0 */
+/* very-dark-blue - #1d2025 */
+/* dark-grayish-blue - #68707d */
+/* grayish-blue - #b6bcc8 */
+/* light-grayish-blue - #f7f8fd */

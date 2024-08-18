@@ -1,0 +1,30 @@
+#cartItem {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.cartImage img {
+    width: 3rem;
+    border-radius: 7px;
+}
+
+.cartContent {
+    flex: 1;
+}
+
+.cartContent p {
+    color: #68707d;
+    text-transform: capitalize;
+}
+
+.cartContent p span {
+    color: #000000;
+    font-weight: bold;
+}
+
+#cartItem button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
